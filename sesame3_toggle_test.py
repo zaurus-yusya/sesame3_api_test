@@ -5,6 +5,8 @@ load_dotenv()
 from pysesame3.auth import WebAPIAuth
 from pysesame3.lock import CHSesame2
 
+#$pysesame3=>0.2.1
+
 API_KEY = os.environ['API_KEY']
 SESAME3_UUID = os.environ['SESAME3_UUID']
 SESAME3_SECRET = os.environ['SESAME3_SECRET']
